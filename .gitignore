@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env/
+.ipynb_checkpoints/
+
+# Jupyter artifacts
+*.ipynb_checkpoints
+
+# LAMMPS temporary files
+log.lammps
+dump.*
+*.lammpstrj
+*.xyz
+*.trj
+
+# System
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar.gz
