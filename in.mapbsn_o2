@@ -1,0 +1,25 @@
+# in.mapbsn_o2
+# Example LAMMPS input based on manuscript (LAMMPS stable release: 3 Mar 2025)
+units           real
+atom_style      full
+boundary        p p p
+neighbor        2.0 bin
+neigh_modify    every 1 delay 0 check yes
+pair_style      buck/coul/long 12.0
+kspace_style    pppm 1.0e-5
+timestep        1.0  # fs
+
+read_data       MAPbSn_O2_3x3x3.data
+
+# Example pair_coeff lines (replace with full parameter file)
+# pair_coeff Pb I 158565.0 0.32 11760.0
+# pair_coeff Sn I 120000.0 0.312 9200.0
+# pair_coeff I  I 41319.0 0.46 10838.0
+
+velocity all create 300.0 12345 rot yes dist gaussian
+
+fix 1 all nvt temp 300.0 300.0 100.0
+thermo 1000
+thermo_style custom step temp pe ke etotal press vol
+dump 1 all custom 100 dump.lammpstrj id type x y z
+run 1000

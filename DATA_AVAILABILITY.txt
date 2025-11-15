@@ -1,0 +1,8 @@
+Data Availability Statement
+
+All input files, force-field parameters, analysis scripts, and processed datasets required to reproduce the figures in
+the manuscript are provided in this repository. Full raw molecular dynamics trajectory datasets used for the production
+results are archived offline due to size constraints (>10 GB). These full datasets are available from the corresponding
+author (Lecturer Manala Tabu Mbumba) upon reasonable request.
+
+Preferred archival options: Zenodo DOI (to be added upon deposition) or direct download from institutional storage upon request.

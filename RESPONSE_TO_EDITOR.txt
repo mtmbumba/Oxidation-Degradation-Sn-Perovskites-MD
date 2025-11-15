@@ -1,0 +1,20 @@
+Response to Editor / Reviewers — Submission Revision
+
+Manuscript: Molecular Dynamics Insights into Oxidation and Structural Degradation Pathways in Sn-containing Perovskites
+Manuscript No.: COMMAT-D-25-03957
+
+Dear Editor,
+
+In response to the submission requirements, we have prepared a GitHub repository containing:
+- LAMMPS input scripts (input_files/)
+- Force-field parameters and placeholder data file (input_files/)
+- A short example trajectory in LAMMPS dump format (example_trajectory/)
+- Processed datasets used to generate figures (processed_data/)
+- Python analysis scripts and notebooks (scripts/)
+- Structural snapshots used for figures (snapshots/)
+- README, Data Availability statement and documentation (docs/)
+
+Full raw trajectory datasets (>10 GB) are archived offline and are available from the corresponding author upon reasonable request.
+
+Sincerely,
+Lecturer Manala Tabu Mbumba
