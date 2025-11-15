@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this work if you use it."
+title: "Oxidation-Degradation-Sn-Perovskites-MD Data and Code Repository"
+authors:
+  - family-names: "Mbumba"
+    given-names: "Manala Tabu"
+version: "1.0.0"
+doi: ""
+date-released: "2025-11-15"
+repository-code: "https://github.com/mtmbumba/Oxidation-Degradation-Sn-Perovskites-MD"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Mbumba"
+      given-names: "Manala Tabu"
+    - family-names: "Kombe"
+      given-names: "Godlisten Gladstone"
+    - family-names: "Mwankemwa"
+      given-names: "Benard Samwel"
+    - family-names: "Masawa"
+      given-names: "Salma Maneno"
+  title: "Molecular Dynamics Insights into Oxidation and Structural Degradation Pathways in Sn-containing Perovskites"
+  journal: "Computational Materials Science"
+  year: "2025"
